@@ -1,0 +1,13 @@
+spring:
+#  datasource:
+#    driver-class-name: com.mysql.jdbc.Driver
+#    url: jdbc:mysql://localhost:3306/products?useSSL=false
+#    username: mysql
+#    password: mysql
+#  flyway:
+#    locations: classpath:db/migration,sql/data
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8000/eureka/
